@@ -3,7 +3,11 @@ Silver Metal Solution for [Human Protein Atlas Image Classification](https://www
 
 For my previous solutions, Keras or Tensorflow is my first choose. But later I found most top kagglers use Pytorch or FastAi. So for this challenge, I struggled to learn Pytorch and FastAi. I have to say that my code is highly inspired by [omallo's starter code](https://github.com/omallo/kaggle-hpa-fastai) (But I don't know why omallo gives up the challenge)
 
+I joined the competetion pretty late (about 4 weeks ago) and only have two 1070Ti(16 GB). So I hope my simple solution can help those who don't have powerful devices. Simple models can also get good results.
+
 ## Instructions
+All configs are in train.py. Just put the correct path and modify some other parameters. Pytorch 1.0 and FastAi 1.0.37 are required.
+
 #### Single Models
 |Models|Image Size|Batch Size|Loss Function|Local CV|Public LB|Private LB|
 |:---|:---|:---|:---|:---|:---|:---|
@@ -24,7 +28,7 @@ After three models ensemble, the submission still has 407 blank predictions and 
 |Models|Local CV|Public LB|Private LB|
 |:---|:---|:---|:---|
 |dns121 + rsn34 + rsn50|0.613|0.536||
-|Final Submission|0.636|0.601||
+|Final Submission|0.636|0.602||
 
 #### About Pretrained Models & External Data
 Like many top kagglers say, external data is not a neccesity for high rank but it does help. I download 50000+ images from [HPAv18](http://v18.proteinatlas.org/). Pretrained models are all from [open resources](https://github.com/pytorch/vision)
