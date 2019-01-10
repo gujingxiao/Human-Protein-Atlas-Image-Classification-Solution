@@ -1,0 +1,66 @@
+protein_stats = ([0.08069, 0.05258, 0.05487, 0.08282], [0.13704, 0.10145, 0.15313, 0.13814])
+
+# name_label_dict = {
+#     0: ('Nucleoplasm', 12885),
+#     1: ('Nuclear membrane', 1254),
+#     2: ('Nucleoli', 3621),
+#     3: ('Nucleoli fibrillar center', 1561),
+#     4: ('Nuclear speckles', 1858),
+#     5: ('Nuclear bodies', 2513),
+#     6: ('Endoplasmic reticulum', 1008),
+#     7: ('Golgi apparatus', 2822),
+#     8: ('Peroxisomes', 53),
+#     9: ('Endosomes', 45),
+#     10: ('Lysosomes', 28),
+#     11: ('Intermediate filaments', 1093),
+#     12: ('Actin filaments', 688),
+#     13: ('Focal adhesion sites', 537),
+#     14: ('Microtubules', 1066),
+#     15: ('Microtubule ends', 21),
+#     16: ('Cytokinetic bridge', 530),
+#     17: ('Mitotic spindle', 210),
+#     18: ('Microtubule organizing center', 902),
+#     19: ('Centrosome', 1482),
+#     20: ('Lipid droplets', 172),
+#     21: ('Plasma membrane', 3777),
+#     22: ('Cell junctions', 802),
+#     23: ('Mitochondria', 2965),
+#     24: ('Aggresome', 322),
+#     25: ('Cytosol', 8228),
+#     26: ('Cytoplasmic bodies', 328),
+#     27: ('Rods &amp; rings', 11)
+# }
+# n_labels = 50782
+
+name_label_dict = {
+    0: ('Nucleoplasm', 22628),
+    1: ('Nuclear membrane', 2416),
+    2: ('Nucleoli', 8074),
+    3: ('Nucleoli fibrillar center', 2819),
+    4: ('Nuclear speckles', 3835),
+    5: ('Nuclear bodies', 4724),
+    6: ('Endoplasmic reticulum', 2833),
+    7: ('Golgi apparatus', 6939),
+    8: ('Peroxisomes', 161),
+    9: ('Endosomes', 163),
+    10: ('Lysosomes', 148),
+    11: ('Intermediate filaments', 1744),
+    12: ('Actin filaments', 1599),
+    13: ('Focal adhesion sites', 1151),
+    14: ('Microtubules', 2086),
+    15: ('Microtubule ends', 51),
+    16: ('Cytokinetic bridge', 1014),
+    17: ('Mitotic spindle', 360),
+    18: ('Microtubule organizing center', 1486),
+    19: ('Centrosome', 2913),
+    20: ('Lipid droplets', 344),
+    21: ('Plasma membrane', 10194),
+    22: ('Cell junctions', 2028),
+    23: ('Mitochondria', 7804),
+    24: ('Aggresome', 380),
+    25: ('Cytosol', 21133),
+    26: ('Cytoplasmic bodies', 548),
+    27: ('Rods &amp; rings', 63)
+}
+
+n_labels = 109638
